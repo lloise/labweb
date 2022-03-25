@@ -1,12 +1,12 @@
 import './assets/styles/custom.scss'
 import './App.css';
 
-import Catalog from 'pages/Home/Catalog';
+import BRoutes from 'Routes';
 import ProductCard from 'components/ProductCard';
 
 const App = () => {
   return (
- <Catalog />
+    <BRoutes />
 
   );
 }
